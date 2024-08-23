@@ -1,36 +1,51 @@
+# Workflow Canvas
+
+Workflow Canvas is an app for visually organizing tasks, projects, or ideas. 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Features
+
+- **Add and Manage Cards** : Users can add cards containing dummy text, with only a portion displayed initially and a "Show More" button to reveal the full content in a modal popup.
+- **Drag-and-Drop Functionality** : Cards can be freely dragged and dropped anywhere on the canvas, allowing users to organize their workflow visually.
+- **Re-sizable Cards** : Each card is resizable, providing flexibility in how much space each content block occupies on the canvas.
+- **Connect Cards with Arrows** : Users can create connections between cards using arrows, enabling them to visually map out relationships between different content blocks or to create a workflow.
+- **Scroll-able Canvas** : The canvas is fully scroll-able, ensuring that users can navigate through their workspace even when it extends beyond the initial view-port.
+
+## Screenshots
+
+
+## Tech Stack
+
+Next.js, Typescript, Zod, Tailwind, ShadCN, React-Flow and Framer Motion.
+
+## Live Demo
+
+Check out the live version of this project [here](https://interactive-card-workflow-canvas.vercel.app/).
 
 First, run the development server:
 
+## Run Locally
+
+Clone the project
+
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/siddharth-1407/interactive-card-workflow-canvas.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory & Install dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Start the server
 
-## Learn More
+```bash
+  npm run start
+```
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Feedback
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you have any feedback, please reach out to us at sanksiddharth@gmail.com
