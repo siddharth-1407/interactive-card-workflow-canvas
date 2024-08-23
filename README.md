@@ -2,8 +2,6 @@
 
 Workflow Canvas is an app for visually organizing tasks, projects, or ideas. 
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Features
 
 - **Add and Manage Cards** : Users can add cards containing dummy text, with only a portion displayed initially and a "Show More" button to reveal the full content in a modal popup.
@@ -14,6 +12,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Screenshots
 
+![App Screenshot](https://interactive-card-workflow-canvas.vercel.app/Hero.png)
+
+![App Screenshot](https://interactive-card-workflow-canvas.vercel.app/Hero-Model-demo.png)
+
+![App Screenshot](https://interactive-card-workflow-canvas.vercel.app/Hero-add-card-demo.png)
 
 ## Tech Stack
 
